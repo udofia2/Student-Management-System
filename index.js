@@ -46,7 +46,7 @@ const updateStudent = (_id, student) => {
 }
 
 const removeStudent = _id => {
-    Student.remove({ _id })
+    Student.deleteOne({ _id })
     .then(student => {
         console.info('Student removed');
         // db.close()
