@@ -1,10 +1,10 @@
 {
-  "name": "student-management-database",
+  "name": "student-CLI",
   "version": "1.0.0",
   "description": "Student management CLI",
   "main": "index.js",
   "preferGlobal": true,
-  "bin": "./commands.js",
+  "bin": "./query.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
